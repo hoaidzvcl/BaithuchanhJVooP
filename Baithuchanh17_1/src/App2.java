@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.math;
 
 public class App2 {
     public static void main(String[] args) throws Exception {
@@ -14,6 +13,7 @@ public class App2 {
        double x2;
        double x;
        System.out.println("Delta = " + delta);
+       
        if(delta > 0){
             System.out.println("Phuong trinh có 2 nghiem la x1 va x2");
             x1 =((-b + Math.sqrt(delta)) / (2*a));
