@@ -28,5 +28,6 @@ public class Bai2 {
             linked.add(number);
         }
         TrungBinh(linked);
+        sc.close();
     }
 }
